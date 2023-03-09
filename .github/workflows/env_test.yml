@@ -3,12 +3,12 @@ name: Deployment
 on:
   push:
     branches:
-      - main
+      - wtf
 
 jobs:
   deployment:
     runs-on: ubuntu-latest
     environment: 
-      name: dev
+      name: wtfdouwant
     steps:
       - run: echo "Hello World"
