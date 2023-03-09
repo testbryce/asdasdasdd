@@ -9,6 +9,6 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
     environment: 
-      name: dev
+      name: noapproveenvironment
     steps:
       - run: echo "Hello World"
