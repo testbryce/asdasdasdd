@@ -3,12 +3,12 @@ name: Deployment
 on:
   push:
     branches:
-      - wtf
+      - main
 
 jobs:
   deployment:
     runs-on: ubuntu-latest
     environment: 
-      name: wtfdouwant
+      name: noapproveenvironment
     steps:
       - run: echo "Hello World"
